@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+    border:border-box;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    /* border:solid; */
+    width:100%;
+    height: 80px;
+    background-color: rgb(43 45 66) ;
+}
+
+/* cette div n est peut etre pas necessaire */
+
+/* #divlogo{
+    border:solid;
+    background-color: aqua;
+
+} */
+
+
+#image{
+    display:flex;
+    border:none;
+    height:60px;
+    width:60px;
+    justify-self: end;
+    margin-left:25px
+    
+}
+
+
+
+ul{
+    list-style: none;
+    display:flex;
+    flex-direction:row;
+    margin-right:25px;
+    
+
+}
+
+li{
+    padding:10px; 
+    border:none;
+    
+    margin:5px;
+    background-color: rgb(237 242 244);
+    content:13444px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+#first{
+    width:100%;
+    background-color: rgb(141, 153, 174);
+    height: 150px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    
+
+}
+
+
+#second{
+    width:100%;
+    background-color: rgb(237, 242, 244);
+    height: 250px;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:5px;
+
+}
+
+
+.left{
+    width:50%;
+    /* border:solid red; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:border-box;
+    margin-left: 10px;
+}
+
+#descript{
+    text-align:center;
+
+}
+
+.right{
+    width:50%;
+    /* border:solid rgb(36, 2, 2); */
+    margin-right: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:border-box;
+}
+
+#btn1{
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: rgb(43 45 66);
+    border:none;
+    color:white;
+}
+
+.vide{
+    width:200px;
+    height:200px;
+    /* border:solid; */
+    background-color: transparent;
+}
+
+#third{
+    background-color: rgb(141, 153, 174);
+    height:350px;
+    display:flex;
+    /* justify-content: center; */
+    flex-direction:column;
+    align-items: center;
+    margin-bottom:5px;
+    /* border:solid red; */
+}
+
+.parent{
+    display:grid;
+    /* border:solid; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    grid-gap:5px;
+    width:80%; 
+    height: 90%;  
+    margin-top:4px; 
+}
+
+.elt{
+    /* border:solid; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43 45 66);
+    color:white
+}
+
+/* couleur pour les effets hover rgb 
+239, 35, 60
+239, 35, 60
+*/
+
+#fourth{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    height:300px;
+    background-color: rgb(237, 242, 244);
+    
+  
+
+}
+
+.form{
+    margin-top:5px;
+    
+  
+}
+
+input{
+    margin-bottom:5px;
+    width:260px;
+}
+
+textarea{
+    width:260px;
+}
+
+#info{
+    margin-top:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#linkgit{
+    /* border:solid; */
+    height:45px;
+    width:45px;
+    margin-top:-10px;
+}
+
